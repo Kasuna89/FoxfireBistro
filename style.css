@@ -1,0 +1,94 @@
+* {
+  background-color: #1f1f1f;
+  color: #FEF7D4;
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+}
+
+header {
+  background: linear-gradient(90deg, #E96840, #B7372E);
+  padding: 5px;
+  font-size: 2em;
+  font-weight: bold;
+  position: relative;
+  }
+
+header img {
+  width: 100%;
+  height: auto;
+  max-height: 390px;
+  object-fit: cover;
+  object-position: top;
+  }
+
+h1{
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 2em;
+  color: #CC4C36;
+  font-weight: 500;
+  padding: 0.5em;
+  font-family: "Yusei Magic", sans-serif;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.25em;
+}
+
+h1::after, span{
+  font-size: 0.75rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  padding-left: 0.25em;
+  color: #B7372E;
+  display: inline-block;
+
+}
+
+h3{
+  color: #4f616b;
+  font-family: "Yusei Magic", sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding-left: 0.5em;
+}
+
+p{
+  font-size: 0.6rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 4px; 
+  padding: 1em;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-around;
+}
+.menu-column{
+  display: inline-flex;
+  padding-right: 2em;
+}
+
+.menu-price{
+  display: inline-flex;
+  color: #F5874C; 
+  font-size: 0.75em;
+}
+
+.divider {
+  border: 3px solid #B7372E; 
+  margin: 3em auto 3em auto;
+  width: 5%;
+  text-align: center;
+}
+footer{
+  font-size: 0.6rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 4px; 
+  padding: 2em;
+  text-align: center;
+}
