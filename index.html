@@ -14,7 +14,7 @@
       <img src="assets/foxfire_bistro.png">
     </header>
     <main>
-      <h1>Tricky Treats <span>• Appetizers</span></h1>
+      <h2>Tricky Treats <span>• Appetizers</span></h2>
       <section>
         <div class="menu">
           <div>
@@ -34,7 +34,7 @@
           </div>
         </div>
         <hr class="divider">
-        <h1>Main Course Magic <span>• Main Course</span></h1>
+        <h2>Main Course Magic <span>• Main Course</span></h2>
         <div class="menu">
           <div>
             <h3 class="menu-column">Spicy Nine-Tail Udon</h3>
@@ -53,7 +53,7 @@
           </div>
         </div>
         <hr class="divider">      
-        <h1>Sweet Treats for Sly Foxes <span>• Desserts</span></h1>
+        <h2>Sweet Treats for Sly Foxes <span>• Desserts</span></h2>
         <div class="menu">
           <div>
             <h3 class="menu-column">Moonlit Matcha Cheesecake</h3>
@@ -72,7 +72,7 @@
           </div>        
         </div>
         <hr class="divider">      
-        <h1>Enchanted Elixirs <span>• Drinks & Cocktails</span></h1>
+        <h2>Enchanted Elixirs <span>• Drinks & Cocktails</span></h2>
         <div class="menu">
           <div>
             <h3 class="menu-column">Foxfire Yuzu Fizz</h3>
@@ -93,15 +93,40 @@
       </section>
       <hr class="divider">
       <section class="form">
-        <h1>Summon your feast<span>• Place your order</span></h1>
+        <h2>Summon your feast<span>• Place your order</span></h2>
         <form>
           <label for="name">Name:<br>
           <input id="name" type="text" name="name"><br>
           <label for="hungry">How many of each?<br>
           <input id="hungry" type="number" name="hungry" min="0" max="5"><br>
-          <table>
-            
-          </table>
+          <label for="appetizers">Choose your Tricky Treat (Appetizers):</label><br>
+            <select name="appetizers" id="appetizers">
+              <option value="edamame">Foxfore Edamame</option>
+              <option value="miso">Mystic Miso Mirage</option>
+              <option value="tempura">Tempura Spirit Bites</option>
+            </select>
+          <br>
+          <label for="maincourse">Choose your Main Course Magic (Main Course):</label><br>
+            <select name="maincourse" id="maincourse">
+              <option value="udon">Spicy Nine-Tail Udon</option>
+              <option value="sushi">Foxfire Sushi Scroll</option>
+              <option value="yakitori">Shadowflame Yakitori</option>
+            </select>
+          <br>
+          <label for="desserts">Choose your Sweet Treats (Desserts):</label><br>
+            <select name="desserts" id="desserts">
+              <option value="cheesecake">Moonlit Matcha Cheesecake</option>
+              <option value="tayaki">Kitsune Tail Taiyaki</option>
+              <option value="souffle">Foxfire Soufflé Pancakes</option>
+            </select>
+          <br>
+          <label for="drinks">Choose your Enchanted Elixiers (Drinks & Cocktails):</label><br>
+            <select name="drinks" id="drinks">
+              <option value="fizz">Foxfire Yuzu Fizz</option>
+              <option value="ember">Ember Old Fashioned</option>
+              <option value="kitsunekiss">Kitsune Kiss</option>
+            </select>
+          <br>
           <label for="specials">Anything special to know?<br>
           <textarea id="specials" type="textarea" name="specials" rows="4" cols="30"></textarea><br>
           <input type="submit" value="Summon!">
