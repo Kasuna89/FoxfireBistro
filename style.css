@@ -21,7 +21,7 @@ header img {
   object-position: top;
   }
 
-h1{
+h2{
   text-transform: uppercase;
   text-align: center;
   font-size: 2em;
@@ -36,7 +36,7 @@ h1{
   gap: 0.25em;
 }
 
-h1::after, span{
+h2::after, span{
   font-size: 0.75rem;
   font-weight: 500;
   text-transform: uppercase;
@@ -106,7 +106,7 @@ label{
   font-weight: 500;
 }
 
-input, textarea{
+input, textarea, select{
   border: 1px solid #B7372E;
   margin-bottom: 1em;
   width: 100%;
